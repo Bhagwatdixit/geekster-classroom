@@ -1,0 +1,20 @@
+.sectionContainer{
+  display: flex;
+  align-items: center;
+  /* background-color: green; */
+  gap: 10px;
+  
+}
+
+/* .sectionBg{
+  background-color: greenyellow;
+} */
+
+.navChild{
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+  font-family: cursive;
+  gap: 30px;
+  cursor: pointer;
+}
