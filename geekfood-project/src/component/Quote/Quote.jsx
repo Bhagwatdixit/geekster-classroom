@@ -58,10 +58,10 @@ function Quote() {
 
   return (
     <div>
-      <div className={style.wrapper} >
+      <div  >
         {fullPara.map(({ para, authorName }, index) => (
           <div key={index} className={style.box}>
-            <div style={{border: '1px solid black', backgroundColor: "#19212c", padding: "30px", color: "white", fontSize: "x-large" }}>
+            <div >
               <p>{para}</p>
               <span style={{ display: "flex", textAlign: "center", backgroundColor: "green"}}>{authorName}</span>
             </div>

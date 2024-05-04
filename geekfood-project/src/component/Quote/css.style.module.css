@@ -1,9 +1,10 @@
-.wrapper{
+.box{
 
   display:flex;
  flex-direction: column;
     gap: 75px;
      margin: 85px;
+     background-color: yellowgreen;
   
     
 }
