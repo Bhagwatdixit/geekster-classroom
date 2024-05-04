@@ -1,4 +1,8 @@
 import style from "./css.style.module.css";
+import logo from "../../assets/logo.png"
+import rocket from '../../assets/rocket.png'
+import person from '../../assets/person.png'
+import poster from '../../assets/poster.png'
 
 function Navbar() {
   const navItems = [
@@ -20,7 +24,7 @@ function Navbar() {
       >
         <section style={{ display: "flex", textAlign: "center" }}>
           <img
-            src="./src/assets/logo.png"
+            src= {logo}
             alt="logo"
             style={{ height: "50px" }}
           />
@@ -74,7 +78,7 @@ function Navbar() {
       <footer className={style.footer}>
         <section>
           <img
-            src="./src/assets/rocket.png"
+            src={rocket}
             alt="rocket"
             
           />
@@ -83,12 +87,12 @@ function Navbar() {
           <p className="pp">enterprise organizations successfully launched</p>
         </section>
         <section>
-          <img src="./src/assets/poster.png" alt="poster" />
+          <img src={poster} alt="poster" />
           <h4>45,000</h4>
           <p className="pp">enterprise users onboard seamlessly</p>
         </section>
         <section>
-          <img src="./src/assets/person.png" alt="" />
+          <img src={person} alt="person" />
           <h4>200,000+</h4>
           <p className="pp">professionals trained on product and startegy</p>
         </section>
